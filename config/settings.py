@@ -31,6 +31,10 @@ INSTALLED_APPS = [
     
     # Local apps
     'accounts',
+    'gyms',
+    
+    # Third-party apps
+    'django_extensions',
 ]
 
 AUTH_UER_MODEL = 'accounts.User'
